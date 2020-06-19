@@ -16,4 +16,5 @@ public class PassengerTest {
         assertEquals("Martin", passenger.getPassenger());
     }
 
+
 }
