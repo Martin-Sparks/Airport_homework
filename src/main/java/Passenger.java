@@ -32,6 +32,8 @@ public class Passenger {
 //        destination (i.e. GLA, EDI)
 //        departure airport (i.e. GLA, EDI)
 //        departure time (use a String)
+
+
 //        The Flight class should have methods to:
 //
 //        return the number of available seats
