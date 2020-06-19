@@ -24,15 +24,6 @@ public class Passenger {
 //        Passengers exist for a single flight only
 
 
-//        Create a Flight class which has:
-//
-//        an empty list of booked Passenger's
-//        a Plane
-//        flight number (i.e. "FR756")
-//        destination (i.e. GLA, EDI)
-//        departure airport (i.e. GLA, EDI)
-//        departure time (use a String)
-
 
 //        The Flight class should have methods to:
 //
