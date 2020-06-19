@@ -23,14 +23,7 @@ public class Passenger {
 //        The weight of bag per person is the weight reserved for passenger bags divided by the capacity
 //        Passengers exist for a single flight only
 
-//        MVP
-//        Create a Passenger class which has:
-//
-//        a name
-//        a number of bags
 
-//        Create a Plane class which has:
-//
 //        an enum PlaneType (e.g. BOEING747) which stores capacity and total weight
 //        Create a Flight class which has:
 //
