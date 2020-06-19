@@ -24,7 +24,6 @@ public class Passenger {
 //        Passengers exist for a single flight only
 
 
-//        an enum PlaneType (e.g. BOEING747) which stores capacity and total weight
 //        Create a Flight class which has:
 //
 //        an empty list of booked Passenger's
