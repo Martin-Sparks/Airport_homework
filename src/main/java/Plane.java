@@ -23,4 +23,8 @@ public class Plane {
     public String getName(){
         return this.name;
     }
+
+//    public Plane canAddPlane() {
+//        return this.PlaneType.;
+//    }
 }

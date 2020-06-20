@@ -20,6 +20,25 @@ public class FlightTest {
     public void hasPlaneName(){
         assertEquals("CESS", flight1.planeName());
         }
+
+        @Test
+    public void getPlaneNumberOfSeats(){
+//            flight1.takeSeat();
+            assertEquals(4, flight1.getFreeSeats());
+        }
+
+        @Test
+    public void canAddPassenger(){
+        flight1.addPassenger(passenger1);
+        flight1.addPassenger(passenger1);
+        flight1.addPassenger(passenger1);
+        flight1.addPassenger(passenger1);
+        flight1.addPassenger(passenger1);
+        assertEquals(0, flight1.getFreeSeats());
+        assertEquals(4, flight1.countPassengers());
+        }
     }
 
-//Passenger plane flight is the order
+//        return the number of available seats
+//        book a passenger (if there are remaining seats)
+

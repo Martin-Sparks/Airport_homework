@@ -12,6 +12,11 @@ public class PlaneTest {
         plane = new Plane( PlaneType.CESSNA162,"CESS");
     }
 
+//    @Test
+//    public void canAddPlane(){
+//        assertEquals(plane, plane.canAddPlane());
+//    }
+
     @Test
     public void canGetPlane(){
         assertEquals(PlaneType.CESSNA162, plane.getPlane());
