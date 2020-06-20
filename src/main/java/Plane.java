@@ -1,9 +1,11 @@
 public class Plane {
 
     private PlaneType plane;
+    private String name;
 
-    public Plane(PlaneType plane){
+    public Plane(PlaneType plane, String name){
         this.plane = plane;
+        this.name = name;
     }
 
     public PlaneType getPlane(){
@@ -16,5 +18,9 @@ public class Plane {
 
     public int getTotalWeight(){
         return this.plane.getTotalWeight();
+    }
+
+    public String getName(){
+        return this.name;
     }
 }
